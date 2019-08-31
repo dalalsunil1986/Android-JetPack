@@ -12,6 +12,12 @@ public class Note {
     private String desc;
     private int priority;
 
+    public Note(String title, String desc, int priority) {
+        this.title = title;
+        this.desc = desc;
+        this.priority = priority;
+    }
+
     public void setTitle(String title) {
         this.title = title;
     }
